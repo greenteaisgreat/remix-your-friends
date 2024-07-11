@@ -1,2 +1,4 @@
 # remix-your-friends
-A contact management app to become acquainted with Remix
+Remix's tutorial to become familiar with its mysterious inner-workings 🔮.
+
+Check it out [here](https://remix.run/docs/en/main/start/tutorial), if you wish to also try it.
