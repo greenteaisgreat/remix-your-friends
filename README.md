@@ -6,7 +6,7 @@ Check it out [here](https://remix.run/docs/en/main/start/tutorial), if you wish 
 
 ---
 
-# Welcome to Remix!
+## Welcome to Remix!
 
 - [Remix Docs](https://remix.run/docs)
 
