@@ -14,7 +14,8 @@ export const loader = async ({ params }: LoaderFunctionArgs) => {
   const contact = await getContact(params.contactId);
 
   // uncomment this line below and see what it solves; it kills two birds
-  // with one stone by accounting for a null value and sending a web response
+  // with one stone by accounting for a null value and sending a web response;
+  // this also makes it so that components in remix only focus on the "happy path"
   if (!contact) throw new Response("Not Found", { status: 404 });
 
   return json({ contact });
